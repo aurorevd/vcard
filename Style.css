@@ -1,58 +1,67 @@
 
 Body { background-image: url("assets/background.png"); 
 	background-repeat: no-repeat;
-	display: flex;
 	margin: 0;
 	padding: 0;
     font-family: helvetica;
 }
 
+#container { width: 100vw;
+			height: 100vh;
+			display: flex;
+}
+
 a {color: black; 
-   text-decoration: none;  
+   text-decoration: none;   
 }
 a:hover {color: white;
 }
 
-
 /* première colonne ///////////////////////////////////////////////////////////////*/
-#contact {
-	width:  17%;
+#left{
+	width:  19%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	padding-left: 2vw;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-bottom: 40px;
 }
-#contact p {font-size: 1.3vw;
+#left p {font-size: 1.3vw;
 }
-#contact h4 {font-size: 1.3vw; 
+#left h4 {font-size: 1.3vw; 
 			margin: 0;
 }
 #reseaux_sociaux {display: flex;
-		justify-content: space-between;
-		padding-right: 8vw;
-		padding-top: 0.5vw;
-		padding-bottom: 1vw;
+		justify-content: space-around;
 		font-size: 2vw;
 }
 /* deuxième colonne ///////////////////////////////////////////////////////////////*/
-#liens {
+#middle1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	width: 23%;
-	margin-top: 8vw;
-	padding-left: 0vw;
+	width: 21%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-top: 100px;
+
 }
 
 
 /* troisième colonne ///////////////////////////////////////////////////////////////*/
-#nom{
+#middle2{
 	width: 45%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-end;
 	text-align: right;
-	margin-top: 17vw;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+
 }
 
 
@@ -60,27 +69,31 @@ h1 {font-size: 8vw;
 margin: 0;
 } 
 
-#nom p{padding-left: 15vw;
+#middle2 p{padding-left: 15vw;
 	margin: 0;
 	text-align: justify;
 }
 
 /* quatrième colonne /////////////////////////////////////////////////////////////// */
-#logo{width: 15%;
+#right{
+	width: 15%;
+	height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: flex-end;
-padding-right: 2vw;
+box-sizing: border-box;
+padding-bottom: 40px;
+padding-right: 40px;
+padding-top: 30px;
 }
-#logo img {width: 80px;
+#right img {width: 80px;
 	height: 80px;
 	margin: 0;
 	padding: 0;
-	padding-top: 2vw;
 }
 h3 {margin: 0;
 font-size: 2vw;
 }
-#logo a:hover {color: pink;}
+#right a:hover {color: pink;}
 
