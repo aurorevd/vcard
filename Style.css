@@ -1,3 +1,4 @@
+
 Body { background-image: url("assets/background.png"); 
 	background-repeat: no-repeat;
 	display: flex;
@@ -9,9 +10,10 @@ Body { background-image: url("assets/background.png");
 a {color: black; 
    text-decoration: none;  
 }
-
 a:hover {color: white;
 }
+
+
 /* première colonne ///////////////////////////////////////////////////////////////*/
 #contact {
 	width:  17%;
@@ -20,14 +22,11 @@ a:hover {color: white;
 	justify-content: flex-end;
 	padding-left: 2vw;
 }
-
 #contact p {font-size: 1.3vw;
 }
-
 #contact h4 {font-size: 1.3vw; 
 			margin: 0;
 }
-
 #reseaux_sociaux {display: flex;
 		justify-content: space-between;
 		padding-right: 8vw;
@@ -35,7 +34,6 @@ a:hover {color: white;
 		padding-bottom: 1vw;
 		font-size: 2vw;
 }
-
 /* deuxième colonne ///////////////////////////////////////////////////////////////*/
 #liens {
 	display: flex;
@@ -49,46 +47,40 @@ a:hover {color: white;
 
 /* troisième colonne ///////////////////////////////////////////////////////////////*/
 #nom{
-	width: 35%;
+	width: 45%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	text-align: right;
-	margin-top: 16vw;
-	padding-right: 3.5vw;
+	margin-top: 17vw;
 }
 
-#nom h1:nth-child(1){
-	letter-spacing: -0.3vw;
-}
 
-h1{font-size: 8vw;
+h1 {font-size: 8vw;
 margin: 0;
 } 
 
-#nom p{padding-left: 12vw;
+#nom p{padding-left: 15vw;
 	margin: 0;
 	text-align: justify;
 }
 
 /* quatrième colonne /////////////////////////////////////////////////////////////// */
-#logo{width: 25%;
+#logo{width: 15%;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: flex-end;
 padding-right: 2vw;
 }
-
 #logo img {width: 80px;
 	height: 80px;
 	margin: 0;
 	padding: 0;
 	padding-top: 2vw;
 }
-
 h3 {margin: 0;
 font-size: 2vw;
 }
+#logo a:hover {color: pink;}
 
-#logo a:hover {color: pink;
